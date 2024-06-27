@@ -3,6 +3,25 @@
 
   <div class="wrapper">
 
+{% if page.comments == nil or page.comments %}
+    <script src="https://giscus.app/client.js"
+      data-repo="drinkcat/drinkcat.github.io"
+      data-repo-id="R_kgDOMOaVyg"
+      data-category="Announcements"
+      data-category-id="DIC_kwDOMOaVys4CgaGq"
+      data-mapping="pathname"
+      data-strict="0"
+      data-reactions-enabled="1"
+      data-emit-metadata="0"
+      data-input-position="bottom"
+      data-theme="light"
+      data-lang="en"
+      crossorigin="anonymous"
+      async>
+    </script>
+    <noscript>Please enable JavaScript to view the comments.</noscript>
+{% endif %}
+
     <h2 class="footer-heading">{{ site.title | escape }}</h2>
 
     <div class="footer-col-wrapper">
