@@ -54,6 +54,7 @@
 </footer>
 
 <!-- Google tag (gtag.js) -->
+{% if jekyll.environment == "production" %}
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-694WR228QQ"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -62,3 +63,4 @@
 
   gtag('config', 'G-694WR228QQ');
 </script>
+{% endif %}
