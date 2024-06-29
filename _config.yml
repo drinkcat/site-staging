@@ -21,7 +21,7 @@
 title: drinkblog (blogcat?)
 author: drinkcat (Nicolas Boichat)
 description: >- # this means to ignore newlines until "baseurl:"
-  Some musings from drinkcat, probably about Computer Engineering, but, we'll see.
+  drinkcat's musings, probably about Computer Engineering, but, we'll see.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://drinkcat.github.io/
 github_username:  drinkcat
