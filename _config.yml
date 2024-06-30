@@ -26,6 +26,8 @@ url: https://drinkcat.github.io/
 github_username:  drinkcat
 linkedin_username:  nicolas-boichat
 
+show_excerpts: true
+
 # Build settings
 theme: minima
 plugins:
