@@ -4,15 +4,11 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Some musings of drinkcat, a.k.a. Nicolas Boichat, a software engineer
+on a career break after working in big tech for almost a decade.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+I used to have a [blog](https://drinkcat.blogspot.com/) a long time
+ago. Mostly about photography, then some Chromebook/[crouton](https://github.com/dnschneid/crouton) stuff.
+Not quite sure what this one is going to be about, but I have a
+couple of small-ish interesting(?) projects that I thought I could
+write up about.
