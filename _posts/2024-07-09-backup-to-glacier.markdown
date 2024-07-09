@@ -74,5 +74,5 @@ That comes with a bunch of caveats though:
 - Files deleted before 180 days still get charged for 180 days. Fine by
   me.
 
-In the next post,
+In the [next post]({% link _posts/2024-07-09-backup-to-glacier-calc.markdown %}),
 I'll go through the details of costs (storage, backup, and restore).
