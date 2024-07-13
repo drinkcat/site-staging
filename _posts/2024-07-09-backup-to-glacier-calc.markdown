@@ -57,6 +57,8 @@ For example, for 1 TB of 128 MB files:
 This is where using big files saves a lot. 1 MB files would cost a
 whopping $52.43/TB to upload.
 
+**TODO: Consider cost of multipart upload ([link](https://docs.aws.amazon.com/AmazonS3/latest/userguide/mpuoverview.html)).**
+
 <div><canvas id="backupChart"></canvas></div>
 
 ### Restore cost (download)
