@@ -2,7 +2,7 @@
 layout: post
 title:  "AWS S3 Glacier Deep Archive Cost computation"
 date: 2024-07-09 21:20:45+08:00
-last_modified_at: 2024-07-09 21:20:45+08:00
+last_modified_at: 2024-07-15 12:10:42+08:00
 categories: backup
 ---
 
