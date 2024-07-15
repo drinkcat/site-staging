@@ -2,6 +2,12 @@
 
 set -e
 
+field="date"
+if [[ $1 == "-u" ]]; then
+    field="last_modified_at"
+    shift
+fi
+
 file="$1"
 
 if [[ ! -f "$file" ]]; then
@@ -18,19 +24,21 @@ newbase="$(date +%Y-%m-%d-)${basenodate}"
 
 if [[ -z "$basenodate" ]]; then
     echo "ERROR: $file doesn't already start with a date."
-    git checkout $branch
     exit 1
 fi
 
-git checkout $branch -- $file
-newfile="$dir"/"$newbase"
-if [[ "$base" != "$newbase" ]]; then
-    git mv "$file" "$newfile"
+if [[ "$field" == "date" ]]; then
+    newfile="$dir"/"$newbase"
+    if [[ "$base" != "$newbase" ]]; then
+        git mv "$file" "$newfile"
+    fi
+else
+    newfile="$file"
 fi
 
 newdate=$(date --rfc-3339=seconds)
 
-sed -i -e "s/^date: .*/date: $newdate/" "$newfile"
+sed -i -e "s/^$field: .*/$field: $newdate/" "$newfile"
 git add "$newfile"
 git commit -m "$newfile: publish" -e
 
