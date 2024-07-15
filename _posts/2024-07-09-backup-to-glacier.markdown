@@ -57,7 +57,7 @@ That comes with a bunch of caveats though:
 - Restore process takes 12-48 hours. That's ok for my use case, I'd
   only infrequently access the data.
 - Storing and restoring small files can be very expensive. It is much
-  cheaper to store large objects (e.g. larger than 128MB on average).
+  cheaper to store large objects (e.g. larger than 256MB on average).
   I'll need to figure out a system to store photos.
 - Unlike Google Drive, operations are charged. In particular, egress
   bandwidth from cloud to Internet, during restore operations, is fairly
