@@ -13,8 +13,8 @@ Not quite sure what this one is going to be about, but I have a
 couple of small-ish interesting(?) projects that I thought I could
 write up about.
 
-![Image]({{"/images/drinkcat.jpg" | relative_url }})  
-*What a drinkcat may look like.*
+*What a drinkcat may look like:*  
+![Image]({{"/images/drinkcat.jpg" | relative_url }})
 
 <small>Archives: [old](https://www.boichat.ch/nicolas/old2index.html)
 and [very old (French)](https://www.boichat.ch/nicolas/oldindex.html)
