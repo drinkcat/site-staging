@@ -27,6 +27,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 url: https://drinkc.at/
 github_username:  drinkcat
 linkedin_username:  nicolas-boichat
+permalink: /blog/:year/:month/:day/:title/
 
 show_excerpts: true
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /blog/about/
 ---
 
 Some musings of drinkcat, a.k.a. Nicolas Boichat, a software engineer
