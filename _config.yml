@@ -18,12 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: drinkc.at | a blogcat(?)
+title: "drinkc.at: a blogcat(?)"
 author: Nicolas Boichat
 short_description: >- # this means to ignore newlines until "baseurl:"
-  ... or a drinkblog: drinkcat's musings.
+  ... or a drinkblog. drinkcat's musings.
 description: >- # this means to ignore newlines until "baseurl:"
-  ... or a drinkblog: drinkcat's musings (a.k.a. Nicolas Boichat), on various topics that I feel like writing about ,-)
+  ... or a drinkblog. drinkcat's musings (a.k.a. Nicolas Boichat), on various topics that I feel like writing about ,-)
 url: https://drinkc.at/
 github_username:  drinkcat
 linkedin_username:  nicolas-boichat
