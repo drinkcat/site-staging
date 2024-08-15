@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A simple tool to upload photos in archives"
-date: 2024-07-13 16:40:06+08:00
+date: 2024-08-15 11:10:52+08:00
 categories: backup
 ---
 
