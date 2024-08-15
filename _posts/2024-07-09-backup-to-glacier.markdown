@@ -2,6 +2,7 @@
 layout: post
 title:  "Backup to AWS S3 Glacier Deep Archive"
 date: 2024-07-09 20:51:35+08:00
+last_modified_at: 2024-08-15 11:10:52+08:00
 categories: backup
 ---
 While figuring out my personal backup story, handling old hard drives
@@ -9,6 +10,9 @@ that miraculously still spin up after 10 years of storage, I decided
 to do some research on Glacier storage. I'm not at all an expert
 in the area, but I thought I'd write this up, if only as a summary
 for my future self.
+
+**Update (August 15, 2024)**: Corrected the fact that Google Cloud
+does have a similar product (but it's a little pricer).
 
 ### Rationale
 
@@ -50,7 +54,8 @@ about 23 USD/month/TB (us-east), charged on what you use only.
 
 "Glacier Deep Archive" is about 1 USD/month/TB, so that's about 5-20
 time cheaper than alternatives. (note: I believe Microsoft Azure has a
-similar product, similarly priced -- I do not believe Google Cloud does)
+similar product, similarly priced -- Google Cloud's is a little bit
+more expensive).
 
 That comes with a bunch of caveats though:
 
