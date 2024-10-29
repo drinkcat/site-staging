@@ -2,7 +2,7 @@
 layout: post
 title:  "Solving a geocaching problem with Prolog (CLP)"
 date: 2024-10-29 15:23:41+01:00
-categories: backup
+categories: geocaching
 ---
 
 Something a bit different for today! I picked up [Geocaching](https://www.geocaching.com/blog/2018/03/what-is-geocaching/) this year. It's a really fun activity, that makes you go out in the real world to find hidden items (a box, little tube...), that you open, sign, and put back carefully. Without anybody else spotting you. Ideally.
