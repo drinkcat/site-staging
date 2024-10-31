@@ -37,3 +37,9 @@ gem "webrick", "~> 1.8"
 
 # Workaround for arch issue
 gem "json", "~> 2.7"
+
+# Not standard from Ruby 3.5.0
+gem "logger", "~> 1.6"
+
+# Not standard from Ruby 3.4.0
+gem "csv", "~> 3.3"
